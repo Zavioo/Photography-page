@@ -1,16 +1,14 @@
-*{
+* {
     margin: 0px;
     font-family: "Montserrat", sans-serif;
 }
-header{
-  
-}
-header>h1{
+
+header>h1 {
     margin-top: 20px;
     font-family: "Playwrite DK Uloopet", cursive;
 }
 
-header>h3{
+header>h3 {
     font-style: italic;
     font-weight: 400;
     letter-spacing: 7px;
@@ -18,84 +16,90 @@ header>h3{
     margin-bottom: 50px;
 }
 
-header>h1,h3{
+header>h1,
+h3 {
     text-align: center;
 }
-nav{
-    
-   display: flex;
-   justify-content: center;
-   margin-right: 50px;
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
 }
-nav>ul>li{
+
+nav>ul>li {
     display: inline;
     list-style: none;
     margin: 10px 90px;
 }
-li>a{
+
+li>a {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 
 }
 
-#img>div{
+#img>div {
     width: 100%;
     display: flex;
     justify-content: center;
     margin: 50px 0px;
-    
+
 }
 
-#img>div>img{
+#img>div>img {
     width: 80%;
 
 }
 
-#img>h2{
+#img>h2 {
     text-align: center;
     letter-spacing: 5px;
     word-spacing: 5px;
 
 }
 
-#p{margin-top: 8px;
+#p {
+    margin-top: 8px;
     text-align: center;
     display: flex;
     justify-content: center;
 }
-#p>p{
+
+#p>p {
     font-weight: 300;
     font-size: medium;
     width: 60%;
 }
 
-#content{
-display: flex;
-justify-content: center;
+#content {
+    display: flex;
+    justify-content: center;
 }
 
-.box{
+.box {
     width: 300px;
     height: 350px;
     margin: 70px 10px;
 }
 
-.box>img{
+.box>img {
     width: 100%;
-    height:200px;
+    height: 200px;
 }
 
-.box>h3{
+.box>h3 {
     margin-top: 20px;
     font-weight: 400;
     font-size: 15px;
 }
 
-.box>p{
+.box>p {
     text-align: center;
     margin-top: 20px;
     font-weight: 400;
@@ -103,51 +107,124 @@ justify-content: center;
 
 }
 
-.box>h3>a{
+.box>h3>a {
     text-decoration: none;
     color: black;
 }
-.box>h3>a:hover{
+
+.box>h3>a:hover {
     text-decoration: underline;
 
 }
 
-.logo{
+.logo {
     width: 100px;
     height: 100px;
-    
+
 }
 
-#gal{
+#gal {
     margin-bottom: 50px;
     text-align: center;
 }
-#Gallery{
+
+#Gallery {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 110px;
 }
 
-.logo>img{
+.logo>img {
     width: 50px;
     height: 50px;
     margin-left: 25px;
-    
+
 
 }
 
-.logo>h5{
+.logo>h5 {
     text-align: center;
 }
 
-.logo>h5>a{
+.logo>h5>a {
     color: black;
     text-decoration: none;
     font-weight: 350;
 }
 
-.logo>h5>a:hover{
+.logo>h5>a:hover {
     text-decoration: underline;
 
 }
 
+
+@media(max-width:801px) {
+    nav>ul>li {
+        margin: 10px 50px;
+    }
+}
+
+@media(max-width:960px) {
+
+
+    .box {
+        width: 200px;
+        height: 350px;
+        margin-bottom: 0px;
+    }
+
+    .box>img {
+        width: 100%;
+        height: 125px;
+    }
+
+    .box>p {
+        font-size: 13px;
+
+    }
+
+    .box>h3 {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:600px) {
+    nav>ul>li {
+        margin: 10px 10px;
+    }
+
+    li>a {
+        font-size: 13px;
+    }
+
+#p>p {
+    font-weight: 300;
+    font-size: 13px;
+    width: 90%;
+}
+
+ .box {
+        width: 200px;
+        height: 350px;
+
+    }
+ .box>img {
+        width: 100%;
+        height: 80px;
+    }
+
+    .box>p {
+        font-size: 10px;
+
+    }
+
+    .box>h3 {
+        font-size: 12px;
+    }
+.logo>img{
+width: 40%;
+height: 40px;
+margin-left: 30px;
+}
+
+}
