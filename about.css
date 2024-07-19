@@ -58,3 +58,21 @@ text-decoration: underline;
 line-height:0.70cm;
 text-align: center;
 }
+
+@media(max-width:600px) {
+    nav>ul>li {
+        margin: 10px 10px;
+    }
+
+    li>a {
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:801px) {
+    nav>ul>li {
+        margin: 10px 50px;
+    }
+}
+

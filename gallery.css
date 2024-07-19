@@ -61,6 +61,33 @@ justify-content: center;
 .items{
 width: 300px;
 height: 200px;
-border: solid;
-margin: 15px;
+margin: 10px;
+align-items: center;
+display: flex;
+}
+
+.items img{
+    width: 100%;
+    transition: 0.5s ;
+}
+
+.items img:hover{
+    margin-bottom: 7px;
+}
+
+@media(max-width:600px) {
+    nav>ul>li {
+        margin: 10px 10px;
+    }
+
+    li>a {
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:801px) {
+    nav>ul>li {
+        margin: 10px 50px;
+    }
 }
