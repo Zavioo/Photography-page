@@ -37,10 +37,12 @@ nav>ul>li {
 li>a {
     text-decoration: none;
     color: black;
+    transition:letter-spacing 0.5s;
 }
 
 a:hover {
     text-decoration: underline;
+    letter-spacing: 0.5px;
 
 }
 
@@ -61,7 +63,14 @@ a:hover {
     text-align: center;
     letter-spacing: 5px;
     word-spacing: 5px;
+    font-size: 28px;
+    transition: 1s;
 
+}
+
+#img>h2:hover{
+    letter-spacing: 5.5px;
+    font-size: 28.2px;
 }
 
 #p {
@@ -86,11 +95,19 @@ a:hover {
     width: 300px;
     height: 350px;
     margin: 70px 10px;
+    transition: 0.5s;
+}
+.box:hover {
+    margin-top: 60px;
+    margin-left:5px;
+    margin-right:5px;
+
 }
 
-.box>img {
+.box>a>img {
     width: 100%;
     height: 200px;
+    transition: 0.5s;
 }
 
 .box>h3 {
@@ -120,12 +137,20 @@ a:hover {
 .logo {
     width: 100px;
     height: 100px;
+transition: 0.5s;
+}
 
+.logo:hover{
+    margin: 5px;
 }
 
 #gal {
     margin-bottom: 50px;
     text-align: center;
+    transition: 1s;
+}
+#gal:hover{
+  letter-spacing: 0.5px;
 }
 
 #Gallery {
@@ -134,7 +159,7 @@ a:hover {
     margin-bottom: 110px;
 }
 
-.logo>img {
+.logo>a>img {
     width: 50px;
     height: 50px;
     margin-left: 25px;
@@ -173,7 +198,7 @@ a:hover {
         margin-bottom: 0px;
     }
 
-    .box>img {
+    .box>a>img {
         width: 100%;
         height: 125px;
     }
@@ -208,7 +233,7 @@ a:hover {
         height: 350px;
 
     }
- .box>img {
+ .box>a>img {
         width: 100%;
         height: 80px;
     }
@@ -221,10 +246,13 @@ a:hover {
     .box>h3 {
         font-size: 12px;
     }
-.logo>img{
+.logo>a>img{
 width: 40%;
 height: 40px;
 margin-left: 30px;
 }
-
+#img>h2:hover{
+    letter-spacing: 5px;
+    font-size: 28px;
+}
 }
